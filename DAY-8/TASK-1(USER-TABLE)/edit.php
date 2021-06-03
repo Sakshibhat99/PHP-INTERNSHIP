@@ -30,8 +30,8 @@ if($_POST){
     <body>
         <form method="post">
             Name :<input type ="text" value="<?php echo $editdata['user_name'];?>" name = "txt1" /></br>
-            Gender: Male<input type="radio"<?php if ($editdata['user_gender']=="Male"){echo "checked";}?> value="Male" name=""txt2 />
-                    Female<input type="radio"<?php if ($editdata['user_gender']=="Female"){echo "checked";}?> value="Female" name=""txt2 /></br>
+            Gender: Male<input type="radio"<?php if ($editdata['user_gender']=="Male"){echo "checked";}?> value="Male" name="txt2" />
+                    Female<input type="radio"<?php if ($editdata['user_gender']=="Female"){echo "checked";}?> value="Female" name="txt2" /></br>
             Mobile :<input type ="number" value="<?php echo $editdata['user_mobile'];?>" name = "txt3" /></br>      
            
         <input type="submit"/>
